@@ -1,6 +1,13 @@
 @import "tailwindcss";
 @import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap");
 
+/*Remove scrollbar styles ( bariinha de rolagem )*/
+@utility scrollbar-hidden {
+  &::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
+  }
+}
+
 html {
   font-family: "Archivo", sans-serif;
 }
